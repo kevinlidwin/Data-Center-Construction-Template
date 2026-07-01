@@ -3,7 +3,6 @@
 > An independent, interactive **owner's cost-and-investment model** for a representative **90 MW / 800,000 SF** hyperscale data-center campus in Northern Virginia — built as a single, self-contained HTML file with **zero external dependencies**.
 
 **▶ Live dashboard: https://kevinlidwin.github.io/Data-Center-Construction-Template/**
-*(replace with your link once Pages is enabled)*
 
 ---
 
