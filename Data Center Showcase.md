@@ -1,4 +1,4 @@
-# Project Cardinal — Detailed Project Overview
+# Data Center Template — Detailed Project Overview
 
 *An owner-side capital-program cost and investment model for a hyperscale data-center campus, built as a self-directed portfolio project.*
 
@@ -6,7 +6,7 @@
 
 ## Summary
 
-Project Cardinal is a two-part deliverable that models the full owner-side capital program for a representative **800,000 SF, 90 MW Tier III hyperscale data-center campus** in Northern Virginia:
+Project Data Center Template is a two-part deliverable that models the full owner-side capital program for a representative **800,000 SF, 90 MW Tier III hyperscale data-center campus** in Northern Virginia:
 
 1. **A 39-sheet Excel cost workbook** — a discipline-level construction estimate, S-curve draw schedule, earned-value tracker, development pro forma, and quantitative risk register, totaling **9,585 formulas** across **3,435 cross-sheet references**.
 2. **A self-contained interactive HTML dashboard** — a zero-dependency, single-file web application (~340 KB, no frameworks, no build step) that replicates the workbook across **17 linked, editable views**, with every figure tying out live to the underlying model.
@@ -17,7 +17,7 @@ The project exists to demonstrate a specific intersection: **construction cost e
 
 ## Why this project
 
-Most cost-estimating portfolios stop at the estimate. Most financial models stop at the pro forma. Owners need both, linked: when a cost assumption moves, the question that matters is *what happens to the return*. Project Cardinal was built to prove that link end-to-end — from a CSI MasterFormat division-level estimate, through an S-curve draw schedule and earned-value system, into interest-during-construction, total development cost, and a full levered/unlevered returns model — with every number reconciling back to source.
+Most cost-estimating portfolios stop at the estimate. Most financial models stop at the pro forma. Owners need both, linked: when a cost assumption moves, the question that matters is *what happens to the return*. Project Data Center Template was built to prove that link end-to-end — from a CSI MasterFormat division-level estimate, through an S-curve draw schedule and earned-value system, into interest-during-construction, total development cost, and a full levered/unlevered returns model — with every number reconciling back to source.
 
 ---
 
