@@ -123,8 +123,8 @@ This project sits at the intersection I'm building a career toward: **owner-side
 
 ## Access
 
-- **Live dashboard:** open `index.html` in any modern browser — no install required
-- **Source workbook:** `Project_Cardinal.xlsx`
+- **Live dashboard:** open `Data Center Template.html` in any modern browser — no install required
+- **Source workbook:** `Data_Center_Template.xlsx`
 - **Repository:** see `README.md` for setup and hosting instructions
 
 ---
