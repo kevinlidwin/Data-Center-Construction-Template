@@ -6,9 +6,9 @@
 
 ## Summary
 
-Project Data Center Template is a two-part deliverable that models the full owner-side capital program for a representative **800,000 SF, 90 MW Tier III hyperscale data-center campus** in Northern Virginia:
+Data Center Template is a two-part deliverable that models the full owner-side capital program for a representative **800,000 SF, 90 MW Tier III hyperscale data-center campus** in Northern Virginia:
 
-1. **A 39-sheet Excel cost workbook** — a discipline-level construction estimate, S-curve draw schedule, earned-value tracker, development pro forma, and quantitative risk register, totaling **9,585 formulas** across **3,435 cross-sheet references**.
+1. **A 39-sheet Excel cost workbook** — a discipline-level construction estimate, S-curve draw schedule, earned-value tracker, development pro forma, and quantitative risk register, totaling **9,771 formulas** across **1,890 cross-sheet references**.
 2. **A self-contained interactive HTML dashboard** — a zero-dependency, single-file web application (~340 KB, no frameworks, no build step) that replicates the workbook across **17 linked, editable views**, with every figure tying out live to the underlying model.
 
 The project exists to demonstrate a specific intersection: **construction cost estimating discipline + capital-program finance + data-center domain knowledge** — the combination that owner-side cost engineering and project-controls roles in hyperscale and mission-critical construction actually require.
@@ -17,7 +17,7 @@ The project exists to demonstrate a specific intersection: **construction cost e
 
 ## Why this project
 
-Most cost-estimating portfolios stop at the estimate. Most financial models stop at the pro forma. Owners need both, linked: when a cost assumption moves, the question that matters is *what happens to the return*. Project Data Center Template was built to prove that link end-to-end — from a CSI MasterFormat division-level estimate, through an S-curve draw schedule and earned-value system, into interest-during-construction, total development cost, and a full levered/unlevered returns model — with every number reconciling back to source.
+Most cost-estimating portfolios stop at the estimate. Most financial models stop at the pro forma. Owners need both, linked: when a cost assumption moves, the question that matters is *what happens to the return*. Data Center Template was built to prove that link end-to-end — from a CSI MasterFormat division-level estimate, through an S-curve draw schedule and earned-value system, into interest-during-construction, total development cost, and a full levered/unlevered returns model — with every number reconciling back to source.
 
 ---
 
@@ -81,7 +81,7 @@ The result was a **~$17M increase in carried financing cost** and a **12-basis-p
 
 The deliverable was audited, not just built:
 
-- **Formula integrity** — 9,585 formulas scanned for broken references: zero found. 3,435 cross-sheet links verified live across 36 distinct sheets.
+- **Formula integrity** — 9,771 formulas scanned for broken references: zero found. 1,890 cross-sheet links verified live across 36 distinct sheets.
 - **Reconciliation** — draw schedule allocates exactly 100.00% of construction cost; earned-value cumulative planned value lands exactly on Budget at Completion; all 7 built-in dashboard QC tie-checks pass.
 - **Interactive regression testing** — every one of the 17 dashboard views was programmatically loaded and exercised for runtime errors.
 - **Edge-case hardening** — boundary inputs (0% exit cap rate, negative and >100% loan-to-cost) were deliberately tested; a division-by-zero defect this surfaced (which produced `Infinity`/`NaN` in the returns display) was traced to its source and fixed with input floors in the core valuation function, then re-verified clean against the same test matrix.
@@ -123,7 +123,7 @@ This project sits at the intersection I'm building a career toward: **owner-side
 
 ## Access
 
-- **Live dashboard:** open `Data Center Template.html` in any modern browser — no install required
+- **Live dashboard:** open `index.html` in any modern browser — no install required
 - **Source workbook:** `Data_Center_Template.xlsx`
 - **Repository:** see `README.md` for setup and hosting instructions
 
@@ -133,6 +133,6 @@ This project sits at the intersection I'm building a career toward: **owner-side
 
 This write-up is intended as source material for three audiences:
 
-- **LinkedIn Projects entry / post** — use the *Summary*, *Why this project*, and *Headline model outputs* sections, or the shorter pre-written versions in `Data Center Showcase.md`
+- **LinkedIn Projects entry / post** — use the *Summary*, *Why this project*, and *Headline model outputs* sections above
 - **GitHub** — pair with `README.md` (technical setup) and consider adding this file as `CASE_STUDY.md` or linking it from the repo's About section
 - **Interview / skills conversation** — the *Methodology rigor* and *Quality assurance* sections are written to answer "tell me about a time you caught and fixed an error" and "how do you ensure a model is reliable" directly, with specifics instead of generalities
