@@ -133,6 +133,6 @@ This project sits at the intersection I'm building a career toward: **owner-side
 
 This write-up is intended as source material for three audiences:
 
-- **LinkedIn Projects entry / post** — use the *Summary*, *Why this project*, and *Headline model outputs* sections, or the shorter pre-written versions in `Project_Cardinal_LinkedIn_Copy.md`
+- **LinkedIn Projects entry / post** — use the *Summary*, *Why this project*, and *Headline model outputs* sections, or the shorter pre-written versions in `Data Center Showcase.md`
 - **GitHub** — pair with `README.md` (technical setup) and consider adding this file as `CASE_STUDY.md` or linking it from the repo's About section
 - **Interview / skills conversation** — the *Methodology rigor* and *Quality assurance* sections are written to answer "tell me about a time you caught and fixed an error" and "how do you ensure a model is reliable" directly, with specifics instead of generalities
