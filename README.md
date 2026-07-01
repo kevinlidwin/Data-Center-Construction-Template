@@ -59,4 +59,4 @@ This is an **independent, illustrative model** of a *representative* hyperscale 
 ## About
 
 Built by **Kevin Lidwin**, a cost manager focused on owner-side data-center and mission-critical capital programs — bridging construction cost control and capital-program finance.
-*[LinkedIn](https://www.linkedin.com/kevinlidwin/) · [email]*(kevin.lidwin@outlook.com)
+*[LinkedIn](https://www.linkedin.com/kevinlidwin/) · [email] *(kevin.lidwin@outlook.com)
